@@ -1,5 +1,5 @@
 # *The Project* _(W.I.P.)_
-<h3>
+
 This project consists of a single specification to be implemented by different frameworks, this API specification is within a roadmap of versions to be implemented.
 
 The specification consists of functionalities, which will be implemented and increased according to the need of the version being implemented of the API, each functionality contains its own business rule for each version.
@@ -12,7 +12,6 @@ The project as a whole contains definitions for:
     - A Swagger file defined to be compatible for any project.
 3. Docker: 
     - A Docker compose file to run all project dependency together.
-</h3>
 
 ---
 ## Features specifications
