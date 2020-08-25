@@ -16,15 +16,7 @@ The project as a whole contains definitions for:
 ---
 ## Features specifications
 
-- [Voting Criteria](/specification/voting_criteria.md)
-
-- [Weights System](/specification/weights_system.md)
-
-- [Voting Application](/specification/voting_application.md)
-
-- [Tiebreaker Criteria](/specification/tiebreaker_criteria.md)
-
-- [Voting Session](/specification/voting_session.md)
+- [Voting Configuration](/specification/voting_configuration.md)
 
 - [User managment](/specification/user_managment.md)
 
@@ -55,9 +47,9 @@ The project as a whole contains definitions for:
 | Language | Framework | V1 | v2 | v3 |
 |----------|-----------|----|----|----|
 | Java     | Quarkus   |    |    |    |
+| JS       | Express   |    |    |    |
 | Golang   | Vanilla   |    |    |    |
 | Rust     | Actix     |    |    |    |
-| JS       | Express   |    |    |    |
 | Kotlin   | Ktor      |    |    |    |
 | Dart     | Aqueduct  |    |    |    |
 | Python   | Django    |    |    |    |

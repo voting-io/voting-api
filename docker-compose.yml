@@ -1,10 +1,24 @@
 version: '3'
 services:
   mongodb_container:
+    container_name: voting_mongo
     image: mongo:latest
     ports:
       - 27017:27017
     volumes:
       - mongodb_data_container:/data/db
+
+  postgres:
+    container_name: voting_postgres
+    image: postgres
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_PASSWORD: voting
+      POSTGRES_USER: voting
+    volumes:
+      - postgres_data_container:/data/db
+
 volumes:
   mongodb_data_container:
+  postgres_data_container:
